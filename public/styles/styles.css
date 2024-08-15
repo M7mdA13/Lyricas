@@ -1,0 +1,66 @@
+body {
+  font-family: montserrat;
+  padding: 0;
+  border: none;
+  background-image: url("../images/pngtree-simple-and-fresh-background-for-music-picture-image_2004646.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 100vh;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.overlay{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgb(193, 193, 193);
+  border-radius: 10px;
+  width: 750px;
+}
+.heading{
+  width: 100%;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 1000;
+}
+form{
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+input{
+  border-radius: 10px;
+  box-shadow: 5px 5px 2px darkgray;
+  margin-right: 20px;
+}
+label{
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 10px;
+}
+.btn{
+  grid-column: span 2;
+  justify-self: center !important;
+  align-self: center !important;
+}
+.lyricsBox{
+  margin-top: 20px;
+  margin-bottom: 50px;
+  display: block;
+  width: 1000px;
+  background-color: rgb(194, 194, 194);
+  
+}
+h2{
+  text-align: center;
+  font-family: Patrick Hand, Oswald !important;
+  white-space: pre-wrap;
+}
